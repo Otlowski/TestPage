@@ -87,26 +87,26 @@ body {
         }
     }
     .container{
-        .container__inner
-        {
+        
+        .container__inner{
             background-color:transparent;
             p{
                 padding-top: 50px;
             }
         }
 
-        .container__sign-up
-        {
+        .container__sign-up{
             margin:0 auto;
             width: 300px;
             padding:10px;
+            
 
             .sign-up__head{
 
                 font-size:18px;
             }
             .sign-up__input{
-
+                    
                 margin:10px 0px 10px 0px;
 
                 input{
@@ -133,8 +133,18 @@ body {
                 font-size:18px;
                 text-align: center;
                 line-height: 20px;
+                cursor: pointer;
             }
         }
+        
+        .container__arrow{
+            cursor:pointer;
+            margin-top: 100px;
+           img{
+            width:50px;
+           } 
+        }
+        
 
     }
 

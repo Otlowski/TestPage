@@ -90,7 +90,13 @@ body {
       border-radius: 3px;
       font-size: 18px;
       text-align: center;
-      line-height: 20px; }
+      line-height: 20px;
+      cursor: pointer; }
+  #header .container .container__arrow {
+    cursor: pointer;
+    margin-top: 100px; }
+    #header .container .container__arrow img {
+      width: 50px; }
 
 /*body.mainpage {
     #header {
