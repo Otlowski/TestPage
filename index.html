@@ -11,16 +11,27 @@
     <body class="mainpage">
         <!--First section-->
         <section id="header">
+            <button class="hamburger" style="display:none">&#9776;</button>
+            <button class="cross" style="display:none">&#735;</button>
+            <div class="menu" style="display: none">
+                <div class="menu-item"><a data-toggle="scroll-page" data-section="second">about</a></div>
+                <div class="menu-item"><a data-toggle="scroll-page" data-section="third">service</a></div>
+                <div class="menu-item"><a data-toggle="scroll-page" data-section="forth">plans</a></div>
+                <div class="menu-item"><a data-toggle="scroll-page" data-section="fifth">sign up</a></div>
+            </div>
+
             <!-- Nav -->
             <nav id="nav">
-                <ul>
-                    <li><a>about</a></li>
-                    <li><a>service</a></li>
+
+
+                <ul class="navbar">
+                    <li><a data-toggle="scroll-page" data-section="second">about</a></li>
+                    <li><a data-toggle="scroll-page" data-section="third">service</a></li>
                     <li>
-                        <a><img src="assets/img/sentione__logo.png" alt="sentione"></a>
+                        <a href="#home" ><img src="assets/img/sentione__logo.png" alt="sentione"></a>
                     </li>
-                    <li><a>plans</a></li>
-                    <li><a>sign up</a></li>
+                    <li><a data-toggle="scroll-page" data-section="forth">plans</a></li>
+                    <li><a data-toggle="scroll-page" data-section="fifth">sign up</a></li>
                 </ul>
             </nav>
 
@@ -36,7 +47,7 @@
                     <div class="sign-up__button">sign up now</div>
                 </div>
                 <div class="container__arrow">
-                    <a><img src="assets/img/arrow_down.png" alt="arrow"></a>
+                    <a><img data-toggle="scroll-page" src="assets/img/arrow_down.png" alt="arrow"></a>
                 </div>
             </div>
 
@@ -111,15 +122,15 @@
                     </div>
 
                     <div class="col-md-7 col-sm-7 text__title right">
-                       <div class="container time">
-                        <div class="container__inner jumbotron">
-                            <h1>Your most valuable asset.</h1> 
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> 
-                            <div class="container__button">how we save your time</div>
-                        </div>
-                        
+                        <div class="container time">
+                            <div class="container__inner jumbotron">
+                                <h1>Your most valuable asset.</h1> 
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> 
+                                <div class="container__button">how we save your time</div>
+                            </div>
 
-                    </div>
+
+                        </div>
                     </div>
 
                 </div>
@@ -128,12 +139,12 @@
             <div class="container join__us">
                 <div class="row"> 
                     <div class="container__inner jumbotron">
-                            <h1>Join us now</h1> 
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> 
-                            <div class="join__us__button">start your 14 day trial</div>
+                        <h1>Join us now</h1> 
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p> 
+                        <div class="join__us__button">start your 14 day trial</div>
                     </div>
                 </div>
-                
+
             </div>
 
         </section>
@@ -163,7 +174,7 @@
                     <li>Ostatnie wpisy</li>
                     <li></li>
                     <li></li>
-                    
+
                 </ul>
                 <ul>
                     <li class="footer__list-col header">KONTAKT</li>
@@ -186,12 +197,12 @@
 
         </footer>
         <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/jquery.dropotron.min.js"></script>
-        <script src="assets/js/jquery.scrolly.min.js"></script>
-        <script src="assets/js/jquery.onvisible.min.js"></script>
-        <script src="assets/js/skel.min.js"></script>
-        <script src="assets/js/util.js"></script>
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <!--<script src="assets/js/jquery.dropotron.min.js"></script>-->
+        <!--<script src="assets/js/jquery.scrolly.min.js"></script>-->
+        <!--<script src="assets/js/jquery.onvisible.min.js"></script>-->
+        <!--<script src="assets/js/skel.min.js"></script>-->
+        <!--<script src="assets/js/util.js"></script>-->
         <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="assets/js/main.js"></script>
 
